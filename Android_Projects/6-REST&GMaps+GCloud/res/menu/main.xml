@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lai.christine.hw6.MainActivity" >
+    
+    <item
+        android:showAsAction="always|withText"
+        android:id="@+id/action_restart"
+        android:orderInCategory="100"
+        android:title="@string/restart"
+        app:showAsAction="never"/>
+</menu>

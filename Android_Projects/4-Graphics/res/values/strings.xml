@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lai.christine.hw4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="klotski_puzzle">Klotski Puzzle</string>
+    <string name="start">Start</string>
+    <string name="action_instructions">action_instructions</string>
+    <string name="instructions">Instructions</string>
+    <string name="instruction_text">Help the large green box escape from the grid through the yellow exit at the bottom.</string>
+    <string name="restart">Restart</string>
+    <string name="chronometer">Chronometer</string>
+
+</resources>

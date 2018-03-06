@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="actionIconNew" format="reference" />
+    <attr name="actionIconNewContact" format="reference" />
+    <attr name="actionIconDone" format="reference" />
+    <attr name="actionIconCancel" format="reference" />
+    <attr name="actionIconEdit" format="reference" />
+</resources>

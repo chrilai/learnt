@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lai.christine.hw5</string>
+    <string name="start">Start</string>
+    <string name="action_instructions">action_instructions</string>
+    <string name="instructions">Instructions</string>
+    <string name="instruction_text">Tilt the maze to guide the ball to the yellow exit square.  Collect as many coins as possible while avoiding the traps! Orient yourself to magnetic south to escape the traps faster.</string>
+    <string name="restart">Restart</string>
+    <string name="chronometer">Chronometer</string>
+    <string name="labyrinth">Labyrinth</string>
+    <string name="compass">compass</string>
+
+</resources>

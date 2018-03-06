@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lai.christine.hw3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lai.christine.hw3.ContactListActivity"
+            android:label="@string/contact_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lai.christine.hw3.DisplayActivity"
+            android:label="@string/view_contact" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<!-- <data android:mimeType="application/vnd.lai.christine.data" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lai.christine.hw3.EditActivity"
+            android:label="@string/edit_contact" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<!-- <data android:mimeType="application/vnd.lai.christine.data" /> -->
+            </intent-filter>
+        </activity>
+        <provider android:name="lai.christine.hw3.ContactContentProvider"
+            android:authorities="lai.christine.contact"
+            android:exported="false"/>   
+    </application>
+
+</manifest>

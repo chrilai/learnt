@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lai.christine.hw2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="newContact">New</string>
+    <string name="new_contact">New Contact</string>
+    <string name="display_name">Display Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="birthday">Birthday</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="work_phone">Work Phone</string>
+    <string name="mobile_phone">Mobile Phone</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_display_name">enter display name</string>
+    <string name="enter_first_name">enter first name</string>
+    <string name="enter_last_name">enter last name</string>
+    <string name="enter_birthday">enter birthday</string>
+    <string name="enter_home_phone_xxx_xxx_xxxx">enter home phone (XXX)XXX-XXXX</string>
+    <string name="enter_work_phone_xxx_xxx_xxxx">enter work phone (XXX)XXX-XXXX</string>
+    <string name="enter_mobile_phone_xxx_xxx_xxxx">enter mobile phone (XXX)XXX-XXXX</string>
+    <string name="enter_email_address_abc_def_xyz">enter email address abc@def.xyz</string>
+    <string name="enter_birthday_yyyy_mm_dd">enter birthday YYYY-MM-DD</string>
+    <string name="enter_birthday_mm_dd_yyyy">enter birthday MM-DD-YYYY</string>
+    <string name="display">Display</string>
+    <string name="contactlist">contactList</string>
+    <string name="contact_list">Contact List</string>
+    <string name="contact">contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="view_contact">View Contact</string>
+
+</resources>

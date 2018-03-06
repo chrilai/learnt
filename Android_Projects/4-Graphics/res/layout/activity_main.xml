@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="lai.christine.hw4.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/restartButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	        android:layout_marginRight="@dimen/activity_horizontal_margin"
+	        android:layout_marginTop="@dimen/activity_vertical_margin"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin"
+	        android:padding="@dimen/text_padding"
+	        android:background="@color/light_grey"
+	        android:textSize="@dimen/text_size"
+	        android:onClick="restartPressed"
+	        android:text="@string/restart" />
+	
+	    <Chronometer
+	        android:id="@+id/chronometer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	        android:layout_marginRight="@dimen/activity_horizontal_margin"
+	        android:layout_marginTop="@dimen/activity_vertical_margin"
+	        android:layout_marginBottom="@dimen/activity_vertical_margin"
+	        android:textColor="@color/white"
+	        android:textSize="@dimen/text_size"
+	        android:text="@string/chronometer" />
+    
+    </LinearLayout>
+    
+</LinearLayout>

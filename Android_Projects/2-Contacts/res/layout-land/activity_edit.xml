@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="outsideInset"
+    android:orientation="vertical" >
+
+    <TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:stretchColumns="1" >
+    
+	   <TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/display_name"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/display_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_display_name"
+		        android:inputType="textPersonName" />
+		</TableRow>
+		
+	    <TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/first_name"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/first_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_first_name"
+		        android:inputType="textPersonName" />
+		</TableRow>
+		
+	    <TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/last_name"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/last_name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_last_name"
+		        android:inputType="textPersonName" />
+		</TableRow>
+		
+	    <TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/birthday"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/birthday"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_birthday_mm_dd_yyyy"
+		        android:inputType="date" />
+		</TableRow>
+		
+	    <TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/home_phone"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/home_phone"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_home_phone_xxx_xxx_xxxx"
+		        android:inputType="phone" />
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/work_phone"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/work_phone"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_work_phone_xxx_xxx_xxxx"
+		        android:inputType="phone" />
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/mobile_phone"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/mobile_phone"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_mobile_phone_xxx_xxx_xxxx"
+		        android:inputType="phone" />
+		</TableRow>
+		
+		<TableRow
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/email_address"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <EditText
+		        android:id="@+id/email_address"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/enter_email_address_abc_def_xyz"
+		        android:inputType="textEmailAddress" />
+		</TableRow>
+		
+	</TableLayout>
+</ScrollView>
